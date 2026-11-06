@@ -1,6 +1,7 @@
 
 from src.processor import calculate_metrics
 from src.gcs_writer import write_json_to_gcs
+from src.cloud_run import process_gcs_file
 
 
 BUCKET_NAME = "sales-csv-processor"
